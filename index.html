@@ -1,0 +1,47 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+ </head>
+ <body>
+   <div class="main">
+      <div class="div">
+  <h1>Temperature converter</h1>
+   <input
+   type="number"
+   id="fahren"
+   class="fahren"
+   placeholder="Enter temperature in Fahrenheit"
+   oninput="convertToCelsius()"/>
+    <p class="btn"></p>
+    
+    <p id="btn1"></p>
+  
+ <input type="number" id="celsius" placeholder="Temperature in Celsius" />
+<p ></p>
+<p></p>
+
+
+
+  </div>
+</div>
+ <script>
+   const fahren = document.getElementById("fahren");
+   const celsius = document.getElementById("celsius");
+
+   fahren.addEventListener("input", function () {
+     if (fahren.value === "") {
+       celsiusInput.value = "";
+       return;
+     }
+     let fahrenheit = parseFloat(fahren.value);
+     let tempcelius = ((fahrenheit - 32) * 5) / 9;
+     celsius.value = tempcelius.toFixed(2);
+   });
+ </script>
+ </body>
+ </html>
+

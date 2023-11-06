@@ -1,0 +1,82 @@
+ .main{
+
+   background-image: url(./141593-woodland-leaf-deciduous-tree-natural_landscape-7680x4320.jpg);
+   background-size: cover;
+
+    width: 100%;
+    height: 100vh;
+ }.main div{
+margin-left: 43%;
+/* width: 300px;
+height: 300px; */
+border-radius: 20px;
+position: relative;
+top: 20%;
+ }
+ h1{
+   color: aliceblue;
+   margin-left: -10px;
+ }
+ #fahren{
+    width: 270px;
+    height: 40px;
+    border-radius: 10px;
+    margin-top: 60px;
+    margin-left: 10px;
+   background-color: rgba(20, 20, 20, 0.5);
+   color: aliceblue;
+ }
+ #celsius{
+    width: 270px;
+    height: 40px;
+    margin-top: 40px;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 10px;
+    background-color: rgba(20, 20, 20, 0.4);
+
+    color: aliceblue;
+ }
+ .btn{
+    width: 8px;
+    border: 1px solid ;
+    height: 2px;
+    position: relative;
+    top: -18.5px;
+left: 20px;
+ }
+
+ #fahren:hover{
+   box-shadow: #ff6208 0px 0px 10px 5px;
+ }
+ .div:hover .btn{
+margin-left:240px;
+background-color: #ff6208;
+height: 2px;
+box-shadow: #ff6208 0px 0px 10px 5px;
+border: 1px solid #ff6208;
+transition-duration: 1.5s;
+ }
+  #btn1{
+    width: 10px;
+    border: 1px solid ;
+    height: 2px;
+    position: relative;
+    top: -82px;
+    left: 265px;
+    
+  }
+  .div:hover #btn1{ 
+   margin-left:-234px;
+   margin-top: -1px;
+   transition-duration: 1.5s;
+   background-color: #ff6208;
+   box-shadow: #ff6208 0px 0px 10px 5px;
+   border: 1px solid #ff6208;
+  }
+#celsius:hover{
+
+
+   box-shadow: #ff6208 0px 0px 10px 5px;
+
+}
